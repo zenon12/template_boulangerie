@@ -1,0 +1,42 @@
+.row{
+    margin: 20px 30px;
+}
+
+form{
+    /* background-color: red; */
+    width: 450px;
+    padding: 10px;
+}
+
+form .form-row textarea,
+form .form-row input{
+    display: flex;
+    width: 100%;
+    outline: none;
+    border: 1px solid var(--main-color-light-gray);
+    margin-bottom: 15px;
+    border-radius: 10px;
+    resize: none;
+}
+form .form-row input{
+    height: 40px;
+}
+form .form-row button{
+    display: flex;
+    height: 40px;
+    width: 120px;
+    color: var(--main-color-white);
+    background-color: var(--main-color-brown);
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+
+
+.contact .description{
+    font-size: 1.2rem;
+    text-align: start;
+}

@@ -1,0 +1,13 @@
+.action-items{
+    margin: 20px;
+}
+.action-item{
+    margin-top: 20px;
+}
+.action-item a{
+    background-color: var(--main-color-brown);
+    color: var(--main-color-white);
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 20px;
+}

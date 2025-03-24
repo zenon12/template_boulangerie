@@ -1,0 +1,33 @@
+.galerie-items{
+    margin: 15px;
+}
+.galerie-item{
+    position: relative;
+}
+.galerie-item img{
+    width: 320px;
+    height: 312px;
+    cursor: pointer;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 20%);
+    border: 2px solid transparent;
+}
+.galerie-item img:hover{
+    border: 2px solid var(--main-color-brown);
+}
+.galerie-item .description{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: var(--main-color-brown);
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    display: none;
+}
+.galerie-item .description a{
+    color: var(--main-color-white);
+}
+.galerie-item:hover .description{
+    display: block;
+}
