@@ -11,3 +11,17 @@
     padding: 15px;
     border-radius: 20px;
 }
+
+
+.container .description{
+    margin:auto;
+}
+
+
+@media screen and (max-width:600px) {
+    
+    .action-item a,
+    .container .description{
+       font-size: 0.9rem;
+    }
+}

@@ -99,3 +99,40 @@ footer{
     bottom: 0;
 }
 
+
+
+
+/*****************
+La responsive 
+*************************/
+
+@media screen  and (max-width:950px){
+    
+    header .logo{
+        font-size: 0.9rem;
+    }
+    header nav ul{
+       gap:0 !important ;
+    }
+    .iden{
+        width: 100%;
+        margin: 5px;
+    }
+    ul li{
+        padding: 25px 10px;
+    }
+    ul li a{
+       font-size: 1.05rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    header nav{
+        display: none !important;
+    }
+    header #collapse{
+        display: block;
+    }
+    
+}
+

@@ -31,3 +31,33 @@
 .galerie-item:hover .description{
     display: block;
 }
+
+#galerie p{
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:697px) {
+    .galerie-item{
+        width: 100%;
+    }
+    .galerie-item img{
+        width: 100%;
+    }
+    #galerie p{
+        font-size: 0.9rem;
+    }
+    #galerie h1{
+        font-size: 1.1rem;
+    }
+    
+    
+}

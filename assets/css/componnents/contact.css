@@ -1,5 +1,8 @@
 .row{
-    margin: 20px 30px;
+}
+.row .col{
+    width: 500px;
+    margin: 20px 5px;
 }
 
 form{
@@ -21,6 +24,9 @@ form .form-row input{
 form .form-row input{
     height: 40px;
 }
+/* form .form-row {
+    display: flex;
+} */
 form .form-row button{
     display: flex;
     height: 40px;
@@ -39,4 +45,25 @@ form .form-row button{
 .contact .description{
     font-size: 1.2rem;
     text-align: start;
+}
+
+
+@media screen and (max-width:500px) {
+    .row .col{
+        width: 100%;
+    }
+    form{
+        width: 100%;
+    }
+
+    .row .col h1{
+        font-size: 1.2rem;
+    }
+    form .form-row input{
+        width: 100%;
+    }
+    .row .col .description,
+    .row .col .description a{
+        font-size: 0.9rem;
+    }
 }

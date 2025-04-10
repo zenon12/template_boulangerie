@@ -42,8 +42,8 @@ Présentation section
     text-transform: uppercase;
     font-size: 4rem;
 }
-.presentation .text{
-    text-align: justify;
+.presentation .text p{
+    /*text-align: justify;*/
 }
 .illustration-item{
     width: 400px;
@@ -94,3 +94,64 @@ section histoire
     background-color: var(--main-color-brown);
     padding: 30px;
 } */
+
+
+
+
+
+
+/**************
+La responsive 
+**************/
+
+@media screen  and (max-width:1228px){
+    .history{
+        flex-wrap: wrap;
+    }
+    .history .history-image{
+        width: 100%;
+    }
+    .history .history-image img{
+        width: 100%;
+        height: 560px;
+    }
+    
+}
+@media screen  and (max-width:950px){
+    /**** presentation *******/
+    .illustration-item .image-details,
+    .history .content .history-details,
+    .presentation .text p{
+       font-size: 0.95rem;
+    }
+    .presentation .title h1{
+        font-size: 2rem;
+    }
+    
+}
+
+@media screen  and (max-width:815px){
+    .illustration-item{
+        width:100%;
+        margin: 10px ;
+    }
+    .history{
+        margin: 10px ;
+        /* opacity: 0.4; */
+    }
+    
+    .illustration-item .image img{
+        border-radius: 10px;
+    }
+}
+@media screen  and (max-width:500px){
+    .bakery-slides .slide-item .slide-details{
+        width:100%;
+    }
+    .bakery-slides .slide-item .slide-details .slide-description{
+        font-size: 0.9rem;
+        padding: 5px;
+    }
+}
+
+
