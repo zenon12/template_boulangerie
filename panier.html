@@ -45,44 +45,61 @@
 
 
    <div class="container">
-      <table>
-        <thead>
-            <tr>
-                <th>Quantité</th>
-                <th>Nom du produit</th>
-                <th>Prix</th>
-                <th>Prix Total</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>02</td>
-                <td>Pain Fromage</td>
-                <td>2$</td>
-                <td>4$</td>
-            </tr>
-            <tr>
-                <td>02</td>
-                <td>Pain Fromage</td>
-                <td>2$</td>
-                <td>4$</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <th>TVA</th>
-                <td></td>
-                <td></td>
-                <th>18%</th>
-            </tr>
-            <tr>
-                <th>Payer</th>
-                <td></td>
-                <td></td>
-                <th>4,6$</th>
-            </tr>
-        </tfoot>
-      </table>
+      <div class="panier">
+          <div class="head">
+             <div class="title">
+                 <h1>Bienvenue sur la page panier</h1>
+             </div>
+          </div>
+          <table>
+            <thead>
+                <tr>
+                    <th>Quantité</th>
+                    <th>Nom du produit</th>
+                    <th>Prix</th>
+                    <th>Prix Total</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>02</td>
+                    <td>Pain Fromage</td>
+                    <td>2$</td>
+                    <td>4$</td>
+                    <td><div class="delete">supprimer</div></td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Pain Fromage</td>
+                    <td>2$</td>
+                    <td>4$</td>
+                    <td><div class="delete">supprimer</div></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>TVA</th>
+                    <td></td>
+                    <td></td>
+                    <th>18%</th>
+                </tr>
+                <tr class="price">
+                    <th>Payer</th>
+                    <td></td>
+                    <td></td>
+                    <th>4,6$</th>
+                </tr>
+            </tfoot>
+          </table>
+          <div class="panier-details">
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui necessitatibus dignissimos officiis quis blanditiis dolorum quam dolore architecto repudiandae officia! Adipisci mollitia libero consequatur suscipit cum impedit. Aspernatur, adipisci corporis?</p>
+             <div class="panier-actions flex jcc gap-25">
+                <div class="btn-cash btn">Payer en espèce</div>
+                <div class="btn-card btn">Payer par carte</div>
+             </div>
+          </div>
+      </div>
    </div>
 
 
